@@ -1,5 +1,5 @@
 [common]
-application.directory = "websiteurl/application/"
+application.directory = "/www/wwwroot/websiteurl/application/"
 application.dispatcher.catchException = 1
 application.cache_config = 1
 application.dispatcher.defaultController = "Index"
@@ -11,11 +11,11 @@ application.modules = "Index,Member,Product,Admin,Crontab,Install"
 TYPE = "mysql"
 READ_HOST = "127.0.0.1"
 READ_PORT = 3306
-READ_USER = sspanel-db-username
-READ_PSWD = sspanel-db-password
+READ_USER = "sspanel-db-username"
+READ_PSWD = "sspanel-db-password"
 WRITE_HOST = "127.0.0.1"
 WRITE_PORT = 3306
-WRITE_USER = sspanel-db-username
-WRITE_PSWD = sspanel-db-password
-Default = sspanel-db-databasename
+WRITE_USER = "sspanel-db-username"
+WRITE_PSWD = "sspanel-db-password"
+Default = "sspanel-db-databasename"
 pconnect = 0
